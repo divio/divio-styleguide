@@ -25,11 +25,10 @@ setup(
     platforms=['OS Independent'],
     classifiers=CLASSIFIERS,
     install_requires=[
-        'Django>=1.3',
-        'django-standard-form>=1.0.0',
+        'Django>=1.3,<1.9',
+        'django-standard-form>=1.0.0,<1.2',
     ],
     packages=find_packages(exclude=[]),
     include_package_data=True,
     zip_safe=False,
 )
-
