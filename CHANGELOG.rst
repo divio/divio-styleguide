@@ -2,6 +2,10 @@
 Divio Styleguide
 ================
 
+3.3.0
+-----
+- Relaxed required Django version
+
 3.2.0
 -----
 - Added text colors to complement color swatches

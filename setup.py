@@ -25,7 +25,7 @@ setup(
     platforms=['OS Independent'],
     classifiers=CLASSIFIERS,
     install_requires=[
-        'Django>=1.7,<1.10',
+        'Django>=1.7',
         'django-standard-form>=1.0.0,<1.2',
     ],
     packages=find_packages(exclude=[]),
